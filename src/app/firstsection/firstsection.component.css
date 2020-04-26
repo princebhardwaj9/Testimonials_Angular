@@ -1,0 +1,23 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px 0px 30px;
+}
+
+.text-container{
+    font-size: larger;
+}
+
+h6{
+    color: orangered;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+p{
+    font-weight: bolder;
+}
+
+.hashtag{
+    color: orangered;
+}

@@ -1,0 +1,22 @@
+<div class="feedback-container">
+    <div class="view-heading">
+        Here Is What Our ProGrads Have To Say
+    </div>
+    <div class="view-container">
+        <div class="name" *ngFor='let i of feedback'>
+            <div class="name-feedback" *ngFor='let j of i'>
+                {{j}}
+            </div>
+            <hr noshade="noshade">
+        </div>
+    </div>
+    <div class="form-container" ng-app="Testimonials" ng-controller="myCtrl">
+        <h3>NAME</h3>
+        <input type="text" placeholder="ENTER YOUR NAME" ngModel="name" >
+        <h3>SHARE YOUR EXPERINCE</h3>
+        <input type="text" class="input" placeholder="ENTER YOUR NAME" ngModel="experince" >
+        <br>
+        {{setData(name,experince)}}
+        <span (click)= 'addFeedback(name,experince)'> <button>POST</button></span>
+    </div>
+</div>

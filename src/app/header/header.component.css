@@ -1,0 +1,8 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    box-shadow: 3px 3px darkgrey;
+}
